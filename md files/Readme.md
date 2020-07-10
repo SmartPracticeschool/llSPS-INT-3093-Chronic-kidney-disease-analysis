@@ -6,7 +6,7 @@ Machine Learning Engineer: Chronic Kidney Disease Analysis
 
 1. Prateek Gupta (Leader,Code debugger,Tester)
 2. AKULA NAVEEN (Coder)
-3. LAMMATHA SUNEETHA (Documentation)
+3. LAMMATHA SUNEETHA (Documentation, Data-predictor)
 
 *********************** Acknowledge ********************************* 
 
@@ -57,62 +57,3 @@ The data was downloaded from the following URL -
 The dataset information such as attributes, their description and values can be found in the downloaded folder.
 The dataset is renamed to CKD.csv which is used for both R and Python Scripts
 There are 400 observations with 25 attributes including the outcome.
-
-The source of the dataset is Dr.P.Soundarapandian M.D., D.M (Senior Consultant Nephrologist), Apollo Hospitals, Managiri, Madurai Main Road, Karaikudi, Tamilnadu, India. The dataset was found in the UCI Machine Learning Repository.
-
-This dataset has 400 observations and 25 variables. (250 ckd, 150 notckd)
-
-1. age: age in years
-2. bp: Blood pressure in mm of Hg.
-3. sg: Specific Gravity
-4. al: Albumin - (0,1,2,3,4,5)
-5. su: Sugar - (0,1,2,3,4,5)
-6. rbc: Red Blood Cells - (normal,abnormal)
-7. pc: Pus Cell - (normal,abnormal)
-8. pcc: Pus Cell clumps - (present,notpresent)
-9. ba: Bacteria - (present,notpresent)
-10. bgr: Blood Glucose Random(numerical) in mgs/dl
-11. bu: Blood Urea in mgs/dl
-12. sc: Serum Creatinine in mgs/dl
-13. sod: Sodium in mEq/L
-14. pot: Potassium in mEq/L
-15. hemo: Hemoglobin in gms
-16. pcv: Packed Cell Volume
-17. wbcc: White Blood Cell Count in cells/cumm
-18. rbcc: Red Blood Cell Count in millions/cmm
-19. htn: Hypertension - (yes,no)
-20. dm: Diabetes Mellitus - (yes,no)
-21. cad: Coronary Artery Disease - (yes,no)
-22. appet: Appetite - (good,poor)
-23. pe: Pedal Edema - (yes,no)
-24. ane: Anemia - (yes,no)
-25. class: Class - (ckd,notckd)
-
-******************* Installationm - Instructions ***************************
-
--> Steps for creating environment for testing the app:
-
-> conda create -n test python=3.6.2 pip
-
-> activate test
-
-> pip install -r requirements.txt
-
--> To run the app:
-
--> Move to the directory where app.py file is located in conda prompt while the activated environment is "test".
-
--> Run 'python app.py' (without quotes)
-
--> Open 'localhost:5000' in the browser to acess the app.
-
-********************************* Software requirement ************************
-
-1. scikit-learn == 0.20.2
-2. flask == 1.0.2
-3. numpy == 1.15.4
-4. pandas == 0.24.1
-5. matplotlib == 3.0.2
-6. scipy == 1.2.1
-7. jinja2 == 2.10
-
